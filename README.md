@@ -4,8 +4,6 @@
 
 RentFlow is a web-based rental property management platform designed to simplify the way property owners and tenants manage rental operations. It brings property-related workflows into one place, helping reduce manual work and improve transparency between landlords and tenants.
 
-🌐 **Live Demo:** [RentFlow](https://rent-flow-mauve.vercel.app/)
-
 📂 **Source Code:** [GitHub Repository](https://github.com/mshrshivam/Rent-Flow)
 
 ---
