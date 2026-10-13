@@ -1,73 +1,138 @@
-# Welcome to your Lovable project
+# 🏠 RentFlow — Smart Rental Property Management
 
-## Project info
+**Simplify property management. Streamline rent tracking. Manage maintenance with ease.**
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+RentFlow is a web-based rental property management platform designed to simplify the way property owners and tenants manage rental operations. It brings property-related workflows into one place, helping reduce manual work and improve transparency between landlords and tenants.
 
-## How can I edit this code?
+🌐 **Live Demo:** [RentFlow](https://rent-flow-mauve.vercel.app/)
 
-There are several ways of editing your application.
+📂 **Source Code:** [GitHub Repository](https://github.com/mshrshivam/Rent-Flow)
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## ✨ Key Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- 🏢 **Property Management** — Manage rental properties and organize property-related information.
+- 💰 **Rent Management** — Simplify rent-related operations and keep rental records organized.
+- 📄 **Digital Agreements** — Support agreement-related workflows and document management.
+- 🔧 **Maintenance Management** — Organize maintenance requests and property service workflows.
+- 🤖 **AI-Powered Assistance** — Integrate AI-assisted functionality into property management workflows.
+- 👥 **Tenant Management** — Keep tenant-related information organized and accessible.
+- 📊 **Centralized Dashboard** — Access important property management information through a unified interface.
+- 🔐 **Database Integration** — Connect application workflows with backend services and persistent data storage.
+- 📱 **Responsive Interface** — Built with a modern frontend for a smooth user experience across screen sizes.
 
-**Use your preferred IDE**
+## 🛠️ Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Frontend
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Backend
+- Node.js
+- Express.js
+- REST APIs
 
-Follow these steps:
+### Database & Services
+- Supabase
+- PostgreSQL
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Tools & Deployment
+- Git & GitHub
+- Vercel
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🏗️ Project Structure
 
-# Step 3: Install the necessary dependencies.
-npm i
+```text
+Rent-Flow/
+├── public/          # Static assets
+├── src/             # Frontend application
+├── server/          # Backend services and API routes
+├── supabase/        # Database and Supabase configuration
+├── package.json     # Project dependencies and scripts
+└── README.md        # Project documentation
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+- Node.js
+- npm
+- Git
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/mshrshivam/Rent-Flow.git
+```
+
+### 2. Navigate to the Project
+
+```bash
+cd Rent-Flow
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Configure Environment Variables
+
+Create a `.env` file in the appropriate project directory and add the environment variables required by your frontend, backend, and database configuration.
+
+```env
+DATABASE_URL=your_database_url
+SUPABASE_URL=your_supabase_url
+SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+Add any additional variables required by your application. Never commit real credentials, API keys, or secrets to GitHub.
+
+### 5. Start the Development Server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Check `package.json` for the available scripts and follow the appropriate instructions to start the backend separately if required.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🔒 Security
 
-**Use GitHub Codespaces**
+- Keep sensitive credentials in environment variables.
+- Never expose service-role keys or private API keys in frontend code.
+- Validate and authorize requests on the server.
+- Configure database access policies according to your application's security requirements.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎯 Project Goals
 
-## What technologies are used for this project?
+RentFlow aims to make rental property management more organized and accessible by bringing essential property workflows into a single digital platform.
 
-This project is built with:
+The project focuses on simplifying day-to-day operations, improving information accessibility, and reducing dependence on scattered manual records.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🔮 Future Enhancements
 
-## How can I deploy this project?
+- Automated rent reminders and payment tracking
+- Property analytics and reporting
+- Enhanced tenant and owner dashboards
+- Agreement expiry notifications
+- Improved maintenance request tracking
+- Additional AI-assisted property management capabilities
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 👨‍💻 Author
 
-## Can I connect a custom domain to my Lovable project?
+**Shivam Kumar Mishra**
 
-Yes, you can!
+- GitHub: [@mshrshivam](https://github.com/mshrshivam)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+⭐ If you find this project interesting, consider starring the repository!
+
