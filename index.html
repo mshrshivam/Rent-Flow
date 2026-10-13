@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- App Title -->
+    <title>RentFlow</title>
+
+    <!-- App Metadata -->
+    <meta name="description" content="RentFlow – Smart rental and property management platform." />
+    <meta name="author" content="RentFlow" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="RentFlow" />
+    <meta property="og:description" content="Smart rental and property management platform." />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="RentFlow" />
+    <meta name="twitter:description" content="Smart rental and property management platform." />
+
+    <!-- IMPORTANT: No favicon links here (Lovable icon removed) -->
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <!-- Force-remove any injected favicon (Lovable or others) -->
+    <script>
+      document.querySelectorAll("link[rel*='icon']").forEach(link => {
+        link.remove();
+      });
+    </script>
+
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
